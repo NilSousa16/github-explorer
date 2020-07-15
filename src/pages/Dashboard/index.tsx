@@ -5,13 +5,13 @@
  */
 import React, { useState, FormEvent, useEffect } from 'react';
 
-import logoImg from '../assets/logo.svg';
+import logoImg from '../../assets/logo.svg';
 
 import { FiChevronRight } from 'react-icons/fi';
 /**
  * Configuração do axios para conexão com API
  */
-import api from '../services/api';
+import api from '../../services/api';
 
 import { Link } from 'react-router-dom';
 
